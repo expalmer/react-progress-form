@@ -12,7 +12,7 @@ var InputElement = React.createClass({
     return (
       <div className={classes}>
         <label htmlFor={item.id}>{item.label}</label>
-        <input type="text" className="form--control" value={item.value} onChange={this._onChange}/>
+        <input type="text" className="form--control" id={item.id} value={item.value} onChange={this._onChange}/>
         <span className="form--focus"></span>
         <span className="form--error">{item.errorMessage}</span>
       </div>
