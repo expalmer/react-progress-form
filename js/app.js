@@ -18854,7 +18854,7 @@ var InputElement = React.createClass({displayName: "InputElement",
     return (
       React.createElement("div", {className: classes}, 
         React.createElement("label", {htmlFor: item.id}, item.label), 
-        React.createElement("input", {type: "text", className: "form--control", value: item.value, onChange: this._onChange}), 
+        React.createElement("input", {type: "text", className: "form--control", id: item.id, value: item.value, onChange: this._onChange}), 
         React.createElement("span", {className: "form--focus"}), 
         React.createElement("span", {className: "form--error"}, item.errorMessage)
       )
