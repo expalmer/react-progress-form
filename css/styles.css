@@ -16,12 +16,32 @@ body {
   font-family: Arial, sans-serif;
 }
 
+h1 {
+  font-size: 1.5em;
+  margin: 0 0 60px;
+  padding: 0 0 10px;
+  color: #111;
+}
+
+h1 small {
+  display: block;
+  font-size: 0.7em;
+}
+
+a {
+  color: #1ECD97;
+}
+
+a:hover {
+ color: #111;
+}
+
 label {
   display: block;
   font-size: 1.3em;
 }
 
-.form {
+.limiter {
   margin: 60px auto 30px;
   max-width: 400px;
   text-align: center;
@@ -109,6 +129,16 @@ label {
   background: #FB797E;
   border-color: #F0797E;
   color: #fff;
+}
+
+.footer p {
+  font-size: .9em;
+  color: #999;
+}
+
+.footer a {
+  display: block;
+  font-size: .8em;
 }
 
 .progress {
