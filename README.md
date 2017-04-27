@@ -16,7 +16,7 @@ To build the project run this command:
 
 This will create a ``dist`` directory.
 
-Finally you have to open the file ``dist/index.html`` with your favorito browser.
+Finally you have to open the file ``dist/index.html`` with your favorite browser.
 
 ### Demo
 Look the [example page](http://expalmer.github.io/react-progress-form/)
