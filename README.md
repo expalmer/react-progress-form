@@ -12,7 +12,7 @@ This will install all dependencies.
 
 To build the project run this command:
 
- ``gulp``
+ ``npm run gulp``
 
  This will create a ``dist`` directory, then you must have to open the file ``dist/index.html``
 
